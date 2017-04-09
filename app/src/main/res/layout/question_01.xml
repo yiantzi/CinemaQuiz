@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/myImageView"
+        android:src="@drawable/question01"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        style="@style/myEditText"
+        android:text="What are the names of the two leading actors of Blue Valentine's Film"
+        android:textAlignment="center"/>
+
+    <CheckBox
+        android:id="@+id/q01_ch01"
+        style="@style/myCheckBox"
+        android:text="Ryan Gosling" />
+
+    <CheckBox
+        android:id="@+id/q01_ch02"
+        style="@style/myCheckBox"
+        android:text="Emma Stone" />
+
+    <CheckBox
+        android:id="@+id/q01_ch03"
+        style="@style/myCheckBox"
+        android:text="Michelle Williams" />
+
+    <CheckBox
+        android:id="@+id/q01_ch04"
+        style="@style/myCheckBox"
+        android:text="James Dean" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/myButton"
+        android:onClick="submitButton" />
+
+
+</LinearLayout>

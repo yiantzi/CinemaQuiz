@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/myImageView"
+        android:src="@drawable/question06" />
+
+    <EditText
+        android:id="@+id/editText3"
+        style="@style/myEditText"
+        android:text="The colors of Krzystof Kieslowski's trilogy about Liberty, Equality, and Fraternity are:"
+        android:textAlignment="center"/>
+
+    <CheckBox
+        android:id="@+id/q06_ch01"
+        style="@style/myCheckBox"
+        android:text="Blue" />
+
+    <CheckBox
+        android:id="@+id/q06_ch02"
+        style="@style/myCheckBox"
+        android:text="White" />
+
+    <CheckBox
+        android:id="@+id/q06_ch03"
+        style="@style/myCheckBox"
+        android:text="Green" />
+
+    <CheckBox
+        android:id="@+id/q06_ch04"
+        style="@style/myCheckBox"
+        android:text="Red" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/myButton"
+        android:onClick="submitButton" />
+
+</LinearLayout>

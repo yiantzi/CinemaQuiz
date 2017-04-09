@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/myImageView"
+        android:src="@drawable/question04" />
+
+    <EditText
+        android:id="@+id/editText3"
+        style="@style/myEditText"
+        android:text="What is the name of Hobbit's village in Lord of the Rings?"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/q04_ed01"
+        style="@style/myEditableText"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/myButton"
+        android:onClick="submitButton"/>
+
+</LinearLayout>
